@@ -65,27 +65,27 @@ li.part-1 {
 }
 
 li.part-2 {
-    background: #ff6644;
+    background: #ffa500;
 }
 
 li.part-3 {
-    background: #2ecc71;
+    background: #4b2e83;
 }
 
 li.part-4 {
-    background: #e74c3c;
+    background: #006341;
 }
 
 li.part-5 {
-    background: #2471a3;
+    background: #c2b280;
 }
 
-li.part-5 a {
-    color: #000000;
+li.part-6 {
+    background: #d3d3d3;
 }
 
-li.part-5 a:hover {
-    color: #ffffff;
+li a {
+    border-bottom: 3px solid;
 }
 
 ul.bxslider li h1, ul.bxslider li h2, ul.bxslider li p {
