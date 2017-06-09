@@ -81,6 +81,10 @@ li.part-5 {
 }
 
 li.part-6 {
+    background: #ffb6c1;
+}
+
+li.part-7 {
     background: #d3d3d3;
 }
 
@@ -88,7 +92,12 @@ li a {
     border-bottom: 3px solid;
 }
 
-ul.bxslider li h1, ul.bxslider li h2, ul.bxslider li p {
+#animation-slide {
+    text-decoration: none;
+    border-bottom: none;
+}
+
+ul.bxslider li h2, ul.bxslider li p {
     margin: 0;
     padding: 0 20px;
     position: relative;
@@ -219,7 +228,7 @@ a.bx-next:hover {
 }
 
 .bx-wrapper .bx-next {
-    right: 48%;
+    right: 46.5%;
     background: url("../images/arrow.png") no-repeat 0 -32;
 }
 
@@ -299,7 +308,7 @@ a.bx-next:hover {
 /* Small Laptops */
 @media (max-width : 1080px) {
 
-	ul.bxslider li h1, ul.bxslider li h2, ul.bxslider li p {
+	ul.bxslider li h2, ul.bxslider li p {
 		top: 20%;
         font-size: 65px;
 	}
@@ -322,7 +331,7 @@ a.bx-next:hover {
 /* Tablets */
 @media (max-width : 800px) {
 
-	ul.bxslider li h1, ul.bxslider li h2, ul.bxslider li p {
+    ul.bxslider li h2, ul.bxslider li p {
 		top: 20%;
         font-size: 65px;
 	}
@@ -346,12 +355,16 @@ a.bx-next:hover {
 /* Smartphones */
 @media (max-width : 480px) {
 
-	ul.bxslider li h1, ul.bxslider li h2, ul.bxslider li p {
+	ul.bxslider li h2, ul.bxslider li p {
 		top: 8%;
 		padding: 0 27px 0 27px;
 		text-align: left;
         font-size: 50px;
 	}
+    
+    ul.bxslider li img {
+        margin-left: 27px;
+    }
     
     .bx-wrapper .bx-next {
         right: 35%;

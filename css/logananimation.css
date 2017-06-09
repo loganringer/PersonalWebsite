@@ -1,0 +1,43 @@
+.bx-wrapper .bx-controls-direction a {
+	top: 91%;
+}
+
+div.arrow-animation {
+    top: 93%;
+}
+
+ul.bxslider li.donut h2, ul.bxslider li.donut p,
+ul.bxslider li.dog h2, ul.bxslider li.dog p,
+ul.bxslider li.campfire h2, ul.bxslider li.campfire p,
+ul.bxslider li.manmodel h2, ul.bxslider li.manmodel p {
+    top: 0%;
+}
+
+li.donut, li.dog, li.campfire, li.manmodel {
+    background: #fbf9ca;
+}
+
+li.donut img, li.dog img, li.campfire img, li.manmodel img {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 3%;
+    padding: 1px;
+    border: 1px solid #021a40;
+}
+
+li.manmodel img {
+    width: 40%;
+    margin-left: 30%
+}
+
+ul.bxslider li a.home {
+    font-size: 20px;
+    border-bottom: 1px solid;
+}
+
+/* Smartphones */
+@media (max-width : 1024px) {
+    .bx-wrapper .bx-controls-direction a {
+	   top: 80%;
+    }
+}

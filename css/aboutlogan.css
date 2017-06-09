@@ -1,0 +1,53 @@
+body {
+    background: #bbf6bb;
+}
+
+h2 {
+    margin-top: 0px;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+ul.bxslider li p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+div.inner-wrapper {
+    position: relative;
+    width: 33%;
+    display: inline-grid;
+    text-align: center;
+}
+
+div.overview-title {
+    font-size: 50px;
+}
+
+div.overview-description {
+    line-height: 2;
+    font-size: 20px;
+    color: #3d3d3d;
+}
+
+.animation {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 13px;
+}
+
+.animation a {
+    border-bottom: 1px solid;
+}
+
+.animation a:hover {
+    color: #ffffff;
+}
+
+/* Small Screens */
+@media (max-width : 1024px) {
+    div.inner-wrapper {
+        width: 100%;
+    }
+}
