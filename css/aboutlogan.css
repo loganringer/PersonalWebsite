@@ -17,7 +17,7 @@ ul.bxslider li p {
 div.inner-wrapper {
     position: relative;
     width: 33%;
-    display: inline-grid;
+    display: inline-table;
     text-align: center;
 }
 
